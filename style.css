@@ -1,0 +1,93 @@
+html {
+  background-image: url("img/canadian-dollar-cad-1024x723.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  border-radius: 18px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Light mode */
+body.light {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #000;
+}
+
+body.light input,
+body.light button {
+  background-color: #f0f0f0;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+/* Dark mode */
+body.dark {
+  background-color: rgba(34, 34, 34, 0.95);
+  color: #f1f1f1;
+}
+
+body.dark input,
+body.dark button {
+  background-color: #444;
+  color: white;
+  border: 1px solid #999;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h2, h3, h4 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+img {
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  width: 120px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#theme-toggle {
+  margin-top: 20px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 20px;
+}
